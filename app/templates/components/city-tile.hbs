@@ -1,2 +1,4 @@
-{{city.name}}
-hello
+<li>{{#link-to 'city' city.id}}{{rental.city.name}} {{/link-to}}
+</li>
+
+<button {{action 'delete city'}}>Delete City</button>
